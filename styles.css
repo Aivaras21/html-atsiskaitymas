@@ -160,7 +160,7 @@ h1 {
   grid-template-areas: "first first first first second second" "third third third fourth fourth fourth";
 }
 .grid-container span {
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(50, 41, 47);
 }
 

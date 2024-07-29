@@ -1,0 +1,34 @@
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(6, 193px);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+  padding: 50px;
+  grid-template-areas:
+    "first first first first second second"
+    "third third third fourth fourth fourth";
+
+  span {
+    font-size: 18px;
+    color: rgba(50, 41, 47, 1);
+  }
+}
+.first {
+  grid-area: first;
+}
+.second {
+  grid-area: second;
+}
+.third {
+  grid-area: third;
+}
+.fourth {
+  grid-area: fourth;
+}
